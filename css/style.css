@@ -1,0 +1,58 @@
+body {
+    background-color: #003366;
+    color:white;
+}
+
+header {
+    color:white;
+}
+
+header, main, nav {
+    text-align: center;
+}
+
+nav a {    /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white;          /* by default, links are blue */    
+}
+
+#source {
+    color: white;
+    text-decoration: none;
+}
+
+#home, #windows, #macOS, #linux{
+    border-bottom: 1px solid orange;
+}
+
+#OS {
+    float: left;
+    padding-left: 300px;
+}
+
+#welcomeText {
+    font-family: 'Robotzo';
+    padding-right: 200px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+h1{
+    font-family: 'Roboto';
+    font-size: 4em;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+h2 {
+    text-shadow: 2px 2px green;
+    border: 2px solid white;
+    
+}
+
+nav a {
+    font-family: 'Roboto';
+}
